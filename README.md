@@ -15,11 +15,11 @@ Apresenta estrutura base para desenvolvimento de apis.
 
 1. Clone o repositório em sua máquina local:
    ```bash
-   git clone git@github.com:fabiomedeirosf/lab-web-2024-2.git
+   git clone git@github.com:silviojunior1401/lab-web-2024-2-ex-final.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd web2024-2
+   cd lab-web-2024-2-ex-final
    ```
 3. Instale as dependências do projeto:
    ```bash
