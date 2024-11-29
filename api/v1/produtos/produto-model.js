@@ -45,8 +45,8 @@ const Produto = database.sequelize.define(
 			allowNull: true,
 		},
 		status: {
-			type: Sequelize.ENUM("ATIVO", "INATIVO"),
-			defaultValue: "ATIVO",
+			type: Sequelize.ENUM("ativo", "inativo"),
+			defaultValue: "ativo",
 		},
 		dataCadastro: {
 			type: Sequelize.DATE,

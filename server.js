@@ -1,6 +1,7 @@
 const Hapi = require("@hapi/hapi");
 const routes = require("./config/routes");
 const config = require('./config/envs-config');
+const database = require("./config/db");
 
 const server = Hapi.server({
     port: config.port,
@@ -11,5 +12,7 @@ const server = Hapi.server({
 routes.forEach((path) => {
     server.route(path);
 });
+
+database.sequelize.sync();
 
 module.exports = server;

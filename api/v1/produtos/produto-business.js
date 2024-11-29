@@ -20,7 +20,7 @@ const remove = async (id) => {
 	if (!produto) {
 		throw new Error("Product not found");
 	}
-	return await produto.update({ status: "INATIVO" });
+	return await produto.update({ status: "inativo" });
 };
 
 const findById = async (id) => {
@@ -32,7 +32,7 @@ const findById = async (id) => {
 };
 
 const list = async (filters) => {
-	const where = {};
+	const where = { status: "ativo" };
 
 	if (filters.categoria) where.categoria = filters.categoria;
 	if (filters.nome) where.nome = { [Op.iLike]: `%${filters.nome}%` };
