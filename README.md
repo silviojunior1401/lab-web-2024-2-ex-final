@@ -15,7 +15,7 @@ Apresenta estrutura base para desenvolvimento de apis.
 
 1. Clone o repositório em sua máquina local:
    ```bash
-   git clone git@github.com:silviojunior1401/lab-web-2024-2-ex-final.git
+   git clone https://github.com/silviojunior1401/lab-web-2024-2-ex-final.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
@@ -49,6 +49,7 @@ Apresenta estrutura base para desenvolvimento de apis.
 
 - **@hapi/hapi**: Framework web para construir servidores e APIs.
 - **joi**: Biblioteca para validação de dados no Node.js.
+- **sequelize**: ORM que mapeia dados relacionais para objetos JavaScript
 
 ## Licença
 
